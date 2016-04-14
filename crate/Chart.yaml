@@ -1,0 +1,8 @@
+name: crate
+home: https://github.com/crate/crate
+version: 0.1.0
+description: The fast, scalable, easy to use SQL database with native full text search
+maintainers:
+- Robert Deusser <robert.deusser@nextgearcapital.com>
+details: |-
+  This package deploys Crate to Kubernetes.

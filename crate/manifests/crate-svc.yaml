@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: crate
+  labels:
+    heritage: helm
+spec:
+  ports:
+  - name: ui
+    port: 4200
+  - name: crate
+    port: 4300
+  selector:
+    provider: crate
